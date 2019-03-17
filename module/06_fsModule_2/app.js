@@ -1,26 +1,10 @@
 const fs = require('fs');
 
-// sync version
-const readFomFile = fs.readFileSync(__dirname+'/simple.txt', 'utf8')
-console.log(readFomFile);
-console.log('done!')
-fs.writeFileSync(__dirname+'/written.txt', 'My new file');
+// sync create and remove dir
 
-// async version
-fs.readFile(__dirname+'/simple.txt', 'utf8', (err, data) => {
-    if(err) {
-        console.log('There was a problem');
-    }
-    else {
-        fs.writeFile(__dirname+'/writtenAsync.txt', data, (_) => {
-            console.log('written!')
-        });
-        console.log('i am probably still writing ...')
-    }
-});
+fs.mkdirSync('myNewDir');
+fs.rmdirSync('myNewDir');
 
-console.log('i am probably still reading ...')
-
-
-
-
+// Async create and remove dir
+fs.mkdir('myNewDirAsync', (_) => { console.log('dir created') } );
+fs.rmdir('myNewDirAsync', (_) => { console.log('dir removed') } );
