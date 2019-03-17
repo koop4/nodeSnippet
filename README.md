@@ -38,7 +38,8 @@ Note: you can call anything withouth typing global!
 server creation and topic related to web servers
 
 - Server creation, request, response
-- Buffers and Streams
+- Buffers, streams, pipes
+- Serving html and Json
 - Routing
 - Express
 - Templating
