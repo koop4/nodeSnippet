@@ -1,13 +1,25 @@
 # Topics
 
-### Inner workings of node.js
+## Module
+include inner workings of node.js and cover the following topics:
+
 - V8 Engine
 - Modules
 - Event Emitter
-- Fyle Syste
+- File System
 
-### Web Server
 
+### The global object
+Global Objects in node is called _global_ and allow to call various javascript method.  
+>E.G.  
+global.setInterval  
+global.__dirname  
+global.__filename  
+
+Note: you can call anything withouth typing global!
+
+## Server
+server creation and topic related to web servers
 - Routing
 - Express
 - Templating
@@ -29,12 +41,3 @@ Node.Js in reality is a C++ application which hooks in V8 engine
 
 
 ## Modules
-
-### The global object
-Global Objects in node is called _global_ and allow to call various javascript method.  
->E.G.  
-global.setInterval  
-global.__dirname  
-global.__filename  
-
-Note: you can call anything withouth typing global!
