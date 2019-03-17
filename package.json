@@ -1,0 +1,19 @@
+{
+  "name": "learningnode",
+  "version": "1.0.0",
+  "description": "unusefull snippet to learn node",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koop4/nodeSnippet.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/koop4/nodeSnippet/issues"
+  },
+  "homepage": "https://github.com/koop4/nodeSnippet#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

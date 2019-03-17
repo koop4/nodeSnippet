@@ -41,7 +41,8 @@ server creation and topic related to web servers
 - Buffers, streams, pipes
 - Serving html and Json
 - Routing
-- Express
+- Npm and Express
+- Express server
 - Templating
 
 
